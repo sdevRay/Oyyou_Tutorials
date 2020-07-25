@@ -22,7 +22,7 @@ namespace Tutorial010.Sprites
 
 		public override void Update(GameTime gameTime, List<Sprite> sprites)
 		{
-			if(_startPosition == null)
+			if (_startPosition == null)
 			{
 				_startPosition = Position;
 				_startSpeed = Speed;
